@@ -19,17 +19,14 @@ void del(int a[], int n, int pos)
         a[i] = a[i+1];
 }
 
-int search(int a[], int n, int key)
+void search(int a[], int n, int key)
 {
-    int t = 0;
     for (int i = 0; i < n; i++)
     {
         if (a[i] == key)
             cout << key << " Is At Index : " << i << endl;
-            return 0;
     }
     cout << "Not Found In Array ";
-    return 0;
 }
 void PRINT(int A[], int n)
 {
